@@ -1,0 +1,12 @@
+DATA QUALITY SUMMARY
+
+1. Successfully fetched live NAV data from mfapi.in API.
+2. Loaded and analyzed 6 CSV datasets using Pandas.
+3. No missing values detected in any dataset.
+4. No duplicate rows detected.
+5. Data types validated successfully across all datasets.
+6. Historical NAV records available for all schemes.
+7. Multiple AMFI scheme code mismatches observed:
+   - Expected scheme names differed from actual API response.
+   - Indicates inconsistency in external API mappings.
+8. Dataset sizes ranged from ~3100 to ~3600 records.
